@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.start-txt {
+    background-color: #0e153a;
+    height: 100vh;
+    color: #e2f3f5;
+    padding: 10% 20%;
+    clip-path: polygon(11% 21%, 91% 21%, 91% 84%, 11% 84%);
+    overflow: hidden
+}
+
+.start-txt h1{
+    position: relative;
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 150px;
+    overflow: hidden; 
+    height: 160px;
+    margin: 0;
+
+}
+
+.hidddentxt{
+    position: absolute;
+    z-index: 200;
+    top: 225px
+}   
+
+@media (max-width: 1300px) {
+    .start-txt h1{
+        font-size: 100px
+    }
+}
+
+@media (max-width: 600px) {
+    .start-txt h1{
+        font-size: 60px;
+        height: 70px;
+        line-height: 70px; 
+    }
+    .start-txt {
+        padding: 50% 15%;
+    }
+
+}
